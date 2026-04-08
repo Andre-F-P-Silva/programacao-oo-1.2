@@ -6,7 +6,6 @@ class Usuario {
   Usuario(this._nome, this._email, [String? apelido])
       : _apelido = apelido ?? _nome;
 
-  // O ?? significa: se apelido for nulo, use _nome no lugar
 
   void exibirPerfil() {
     print('Nome: $_nome');
