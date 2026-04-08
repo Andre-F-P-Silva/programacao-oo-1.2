@@ -1,8 +1,8 @@
 import 'conta.dart';
 
 void main() {
-  Conta c1 = Conta.bancaria('001-1', 'João');
-  Conta c2 = Conta.vip('002-2', 'Maria', 5000);
+  Conta c1 = Conta.bancaria('001-1', 'André');
+  Conta c2 = Conta.vip('002-2', 'Rayane', 5000);
 
   c1.exibirResumo();
   print('');
