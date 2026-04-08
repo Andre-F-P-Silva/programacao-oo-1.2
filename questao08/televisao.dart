@@ -28,7 +28,6 @@ class Televisao {
 class ControleRemoto {
   Televisao _tv;
 
-  // O controle recebe a televisão e guarda a referência dela
   ControleRemoto(this._tv);
 
   void aumentarVolume() {
@@ -40,7 +39,7 @@ class ControleRemoto {
   }
 
   void proximoCanal() {
-    _tv.setCanal(_tv.getCanal() + 1);
+    _tv.setCanal(_tv.getCanal() + 8);
   }
 
   void canalAnterior() {
