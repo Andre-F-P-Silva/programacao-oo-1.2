@@ -33,11 +33,3 @@ estudo-dirigido-1.2/
     ├── questao14/    Banco - conta compartilhada entre gerentes
     └── questao15/    Funcionario - múltiplos construtores
 ```
-
-## Como executar cada questão
-
-```bash
-dart run lib/questao01/main.dart
-dart run lib/questao02/main.dart
-# ... e assim por diante
-```
