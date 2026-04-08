@@ -1,6 +1,6 @@
 # Estudo Dirigido 1.2 - Programação Orientada a Objetos
 
-Universidade Tuiuti do Paraná 
+Universidade Tuiuti do Paraná
 
 ## Integrante
 
