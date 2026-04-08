@@ -1,7 +1,7 @@
 import 'televisao.dart';
 
 void main() {
-  Televisao tv = Televisao(5, 20);
+  Televisao tv = Televisao(4, 20);
   ControleRemoto controle = ControleRemoto(tv);
 
   print('Estado inicial:');
@@ -13,13 +13,11 @@ void main() {
   print('\nDepois de usar o controle:');
   tv.exibir();
 
-  // Resposta a):
-  // O controle consegue alterar o estado da televisão porque ele guarda
-  // uma referência para o mesmo objeto Televisao criado no main.
-  // Quando o controle chama _tv.setVolume(), está acessando o objeto original.
+ // Resposta a):
+  // O controle guarda uma referência para a TV original.
+  // Então tudo que ele faz afeta diretamente a televisão.
 
-  // Resposta b):
-  // O controle possui uma REFERÊNCIA para o mesmo objeto.
-  // Isso pode ser percebido porque ao exibir tv.exibir() no main,
-  // os valores já aparecem alterados, sem precisar devolver o objeto.
+ // Resposta b):
+  // É uma referência para o mesmo objeto. Dá pra perceber isso
+  // porque quando exibimos a TV no main, ela já aparece alterada.
 }
