@@ -1,7 +1,7 @@
 import 'produto.dart';
 
 void main() {
-  Produto produto = Produto('Caderno', 15.90, 10);
+  Produto produto = Produto('Camiseta Athletico', 150.90, 10);
 
   produto.exibirFicha();
 
