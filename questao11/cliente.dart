@@ -20,7 +20,10 @@ class Cliente {
 
   Cliente(this._nome, this._endereco);
 
-  // Construtor de cópia: cria um novo objeto Endereco com os mesmos dados
+  void alterarRua(String novaRua) {
+    _endereco.setRua(novaRua);
+  }
+
   Cliente.copia(Cliente outro)
       : _nome = outro._nome,
         _endereco = Endereco(
