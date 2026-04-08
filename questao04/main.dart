@@ -1,11 +1,10 @@
 import 'usuario.dart';
 
 void main() {
-  // Usuário sem apelido - vai usar o próprio nome
-  Usuario u1 = Usuario('Beatriz', 'bea@email.com');
 
-  // Usuário com apelido informado
-  Usuario u2 = Usuario('Rodrigo', 'rod@email.com', 'Rodão');
+  Usuario u1 = Usuario('André', 'dre@email.com');
+
+  Usuario u2 = Usuario('Rayane', 'ray@email.com', 'Raizika');
 
   u1.exibirPerfil();
   print('');
