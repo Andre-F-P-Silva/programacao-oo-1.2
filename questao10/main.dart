@@ -14,17 +14,14 @@ void main() {
   print('\nDepois de trocarCaixa:');
   caixa.exibir();
 
-  // Resposta a):
-  // alterarValor() modifica o objeto original porque ela acessa o objeto
-  // através da referência e chama setValor() diretamente nele.
+// Resposta a):
+  // alterarValor() acessa o objeto original pela referência e muda o valor dentro dele.
 
-  // Resposta b):
-  // trocarCaixa() não substitui a caixa do main porque em Dart não é possível
-  // reatribuir a variável de fora através do parâmetro.
-  // Dentro da função, c = Caixa(0) só muda a variável LOCAL c.
-  // A variável caixa do main continua apontando para o objeto original.
+// Resposta b):
+  // trocarCaixa() só troca a variável local c, não a variável do main.
+  // A caixa original continua existindo sem ser afetada.
 
-  // Resposta c):
-  // Alterar um objeto (mudar seus atributos) afeta todos que têm referência para ele.
-  // Reatribuir uma variável de referência só muda para quem fez a atribuição.
+// Resposta c):
+  // Mudar algo dentro do objeto afeta todos que apontam para ele.
+  // Trocar a variável só afeta quem fez a troca.
 }
