@@ -8,11 +8,11 @@ void main() {
 
   alterarValor(caixa);
   print('\nDepois de alterarValor:');
-  caixa.exibir(); // valor mudou para 999
+  caixa.exibir();
 
   trocarCaixa(caixa);
   print('\nDepois de trocarCaixa:');
-  caixa.exibir(); // valor continua 999, não foi substituída
+  caixa.exibir();
 
   // Resposta a):
   // alterarValor() modifica o objeto original porque ela acessa o objeto
