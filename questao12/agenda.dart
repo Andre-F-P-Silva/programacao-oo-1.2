@@ -16,10 +16,8 @@ class Contato {
 class Agenda {
   List<Contato> _contatos;
 
-  // Construtor: agenda vazia
   Agenda.vazia() : _contatos = [];
 
-  // Construtor: agenda já com contatos
   Agenda.comContatos(List<Contato> contatos) : _contatos = contatos;
 
   void adicionarContato(Contato contato) {
