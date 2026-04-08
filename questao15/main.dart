@@ -14,18 +14,14 @@ void main() {
   print('\n--- Gerente ---');
   f3.exibirDados();
 
-  // Resposta a):
-  // A vantagem é que cada construtor já define automaticamente o cargo e o salário
-  // base correto para aquele tipo de funcionário. Isso evita erros e deixa o código
-  // mais claro, pois quem lê já sabe que tipo de funcionário está sendo criado.
+// Resposta a):
+  // Cada construtor já define o cargo e salário certo, evitando erros e deixando o código mais claro.
 
   // Resposta b):
-  // O estagiário começa com salário fixo de 800 e sem bônus.
-  // O pleno começa com o salário informado e sem bônus.
-  // O gerente começa com salário de 8000 e bônus (padrão 1000 ou informado).
+  // Estagiário nasce com salário 800 e sem bônus.
+  // Pleno nasce com o salário informado e sem bônus.
+  // Gerente nasce com salário 8000 e bônus de 1000 por padrão.
 
   // Resposta c):
-  // É melhor definir no construtor porque garante que o objeto nasce em um estado
-  // válido e consistente. Se deixarmos para configurar depois, corremos o risco de
-  // usar o objeto antes de ele estar completamente configurado.
+  // Definir no construtor garante que o objeto já nasce pronto e configurado corretamente.
 }
