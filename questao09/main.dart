@@ -12,12 +12,10 @@ void main() {
   print('\nDepois da revisão:');
   carro.exibir();
 
-  // Resposta a):
-  // A quilometragem foi alterada porque o parâmetro do método revisar()
-  // recebe a referência do mesmo objeto carro criado no main.
-  // Qualquer alteração feita dentro do método afeta o objeto original.
+// Resposta a):
+  // O método revisar() recebe o mesmo carro do main por referência.
+  // Então qualquer mudança feita dentro do método aparece no objeto original.
 
   // Resposta b):
-  // O parâmetro representa o MESMO objeto criado no main.
-  // Dart passa objetos por referência, então não é criada uma cópia.
+  // É o mesmo objeto. Dart não cria uma cópia quando passa objeto por parâmetro.
 }
