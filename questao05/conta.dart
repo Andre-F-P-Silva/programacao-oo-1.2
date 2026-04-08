@@ -3,10 +3,8 @@ class Conta {
   String _titular;
   double _saldo;
 
-  // Construtor nomeado: conta bancaria comum, saldo começa em zero
   Conta.bancaria(this._numero, this._titular) : _saldo = 0;
 
-  // Construtor nomeado: conta vip, começa com saldo informado
   Conta.vip(this._numero, this._titular, double saldoInicial)
       : _saldo = saldoInicial;
 
