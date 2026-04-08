@@ -14,9 +14,8 @@ class Carro {
 }
 
 class Oficina {
-  // O método recebe o carro como parâmetro (por referência)
   void revisar(Carro carro) {
     print('Revisando o carro...');
-    carro.adicionarQuilometragem(150); // teste de rodagem
+    carro.adicionarQuilometragem(150);
   }
 }
