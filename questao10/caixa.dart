@@ -12,12 +12,10 @@ class Caixa {
   }
 }
 
-// Modifica o valor DENTRO do objeto (afeta o original)
 void alterarValor(Caixa c) {
   c.setValor(999);
 }
 
-// Troca a variável LOCAL c por uma nova Caixa (não afeta o original)
 void trocarCaixa(Caixa c) {
-  c = Caixa(0); // apenas a variável local c é trocada
+  c = Caixa(0);
 }
