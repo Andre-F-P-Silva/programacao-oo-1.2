@@ -18,6 +18,10 @@ class Pessoa {
 
   Pessoa(this._nome, this._carteira);
 
+  void adicionarNaCarteira(double valor) {
+    _carteira.adicionar(valor);
+  }
+
   void exibir() {
     print('Pessoa: $_nome');
     _carteira.exibir();
