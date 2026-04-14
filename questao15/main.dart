@@ -1,9 +1,9 @@
 import 'funcionario.dart';
 
 void main() {
-  Funcionario f1 = Funcionario.estagiario('João');
-  Funcionario f2 = Funcionario.pleno('Larissa', 3500);
-  Funcionario f3 = Funcionario.gerente(nome: 'Carlos', bonus: 1500);
+  Funcionario f1 = Funcionario.estagiario('André');
+  Funcionario f2 = Funcionario.pleno('Rayane', 3500);
+  Funcionario f3 = Funcionario.gerente(nome: 'Márcia', bonus: 1500);
 
   print('--- Estagiário ---');
   f1.exibirDados();
