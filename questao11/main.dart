@@ -1,7 +1,7 @@
 import 'cliente.dart';
 
 void main() {
-  Cliente c1 = Cliente('Marina', Endereco('Rua A', 10, 'Curitiba'));
+  Cliente c1 = Cliente('André', Endereco('Rua A', 10, 'Curitiba'));
   Cliente c2 = Cliente.copia(c1);
 
   c2.alterarRua('Rua B');
