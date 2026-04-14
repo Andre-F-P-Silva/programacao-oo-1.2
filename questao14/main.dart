@@ -1,9 +1,9 @@
 import 'conta.dart';
 
 void main() {
-  Conta conta = Conta('Fernanda', 1000);
-  Gerente g1 = Gerente('Marcos');
-  Gerente g2 = Gerente('Patricia');
+  Conta conta = Conta('Rayane', 1000);
+  Gerente g1 = Gerente('André');
+  Gerente g2 = Gerente('Márcia');
 
   print('Estado inicial:');
   conta.exibir();
