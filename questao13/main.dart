@@ -1,7 +1,7 @@
 import 'pessoa.dart';
 
 void main() {
-  Pessoa p1 = Pessoa('Lucas', Carteira(100));
+  Pessoa p1 = Pessoa('André', Carteira(100));
   Pessoa p2 = p1;
 
   print('Estado inicial:');
